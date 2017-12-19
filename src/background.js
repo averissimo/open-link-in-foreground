@@ -28,6 +28,7 @@ function openLinkForeground( info, tab ) {
   console.log('info', info);
   chrome.tabs.create({
     url: info.linkUrl,
+    openerTabId: tab.id,
     active: true
   })
 }
