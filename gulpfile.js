@@ -30,4 +30,4 @@ function package(cb) {
 
 exports.package = package
 exports.clean = clean
-exports.default = gulp.series(package)
+exports.default = gulp.series(clean, package)
