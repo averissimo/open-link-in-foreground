@@ -1,9 +1,8 @@
 {
   "name": "open-link-in-foreground",
   "dependencies": {
-    "coffee-script": "^1.12.6",
     "del": "^2.2.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-zip": "^4.0.0"
   }
 }
